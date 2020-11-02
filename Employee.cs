@@ -14,9 +14,9 @@ class Employee
     public double Salary;
 
     // Выводим информацию в консоль
-    public void writeInConsoleInfo(string surname, string name, string middlename, string position, string department, double salary)
+    public void writeInConsoleInfo(string Surname, string Name, string Middlename, string Position, string Department, double Salary)
     {
-        Console.WriteLine("Фамилия: {0}\nИмя: {1}\nОтчество: {2}\nДолжность: {3}\nОтдел: {4}\nОклад: {5} рублей\n", surname, name, middlename, position, department, salary);
+        Console.WriteLine("Фамилия: {0}\nИмя: {1}\nОтчество: {2}\nДолжность: {3}\nОтдел: {4}\nОклад: {5} рублей\n", Surname, Name, Middlename, Position, Department, Salary);
 
     }
 }
